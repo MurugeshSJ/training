@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>object oriented js</title>
+</head>
+<body>
+<script>
+var createperson = function(firstname, lastname){
+return{
+firstname : firstname,
+lastname : lastname,
+sayhi : function(){
+return "hi there";
+}
+};
+};
+var xyz = createperson("xyz", "uvz");
+var abc = createperson("abc", "def");
+document.write(xyz.sayhi() + "<br />);
+document.write(abc.firstname + "<br />);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+<button onclick ="remove()"> Try this</button>
+<button onclick ="add()">try it</button>
+</div>
+<script>
+function remove(){
+var parent = document.getElementById("div1");
+var child = document.getElementById("p2");
+parent.removeChild(child);
+}
+function add(){
+var parent = document.getElementById("div1");
+var child = document.getElementById("p2");
+parent.appendChild(child);
+}
+</script>
+</body>
+</html>

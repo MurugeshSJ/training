@@ -1,0 +1,39 @@
+<html>
+<head>
+<script>
+function validateform(){
+var name=document.myform.name.value;
+var password = document.myform.password.value;
+var address=document.myform.address.value;
+var city=document.myform.city.value;
+var state = document.myform.state.value;
+if (name == null || name==" ");
+alert("name can't be blank");
+console.log(name)
+document.myform.name.focus();
+}
+else if (password.length<6);
+alert("password must be atleast 6 char long.");
+return false;
+}
+else if(address == null || address=="");{
+alert("address can't be blank");
+document.myform.address();
+} else if(city == null || city=="");{
+alert("city can't be blank");
+document.myform.city();
+}else if(state == null || state=="");{
+alert("state can't be blank");
+document.myform.state();
+}
+</script>
+<body><form name ="myform">
+name: <input type = "text" name = "name"><br/>
+password: <input type="password" name ="password"><br/>
+address : <input type = "text" name = "address"><br/>
+city: <input type = "text" name = "city"><br/>
+state: <input type = "text" name = "state"><br/>
+<button onclick="validateform()">click here</button>
+</body>
+</head>
+</html>

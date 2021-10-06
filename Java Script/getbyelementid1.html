@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>getelementbyid</title>
+</head>
+<body>
+<p id="para">kindly login here</p>
+username : <input type = "text" id="mytext"> /><br />
+password : <input type = "text" id="ptext"> /><br />
+<button onclick ="showfunction()">try it</button>
+<script>
+function showfunction() {
+var x = document.getelementbyid("mytext").value;
+var y = document.getelementbyid("ptext").value;
+document.write(x + " " + y);
+}
+</script>
+</body>
+</html>
