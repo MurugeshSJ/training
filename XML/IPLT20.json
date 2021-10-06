@@ -1,0 +1,27 @@
+{
+
+"ipl_teams":[
+{          
+
+"teamname":"Chennai super kings",
+
+"captain":"MS Dhoni",           
+
+"batsman":"Suresh Raina",          
+
+"Bowler":"Bravo"
+},        
+
+{            
+
+"teamname":"Royal challengers Bangalore",
+
+"captain":"Virat Kohli",          
+
+"batsman":"ABD",          
+
+"bowler":"Chahal"
+}  
+
+]
+}

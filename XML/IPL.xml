@@ -1,0 +1,16 @@
+<ipl-teams>
+  <team>
+    <name>Chennai Super Kings</name>
+    <short-name>CSK</short-name>
+    <captain>MS Dhoni</captain>
+    <players>
+      <player>
+        <name>MS Dhoni</name>
+      </player>
+      <player>
+        <name>Suresh Raina</name>
+      </player>
+    </players>
+    <winners> CSK </winners>
+  </team>
+</ipl-teams>
